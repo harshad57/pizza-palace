@@ -1,0 +1,458 @@
+<style>
+html{
+       scroll-behavior:smooth;
+         }
+
+    body{
+        margin: 0;
+        padding: 0;
+      }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }   
+    
+    nav{
+       position:fixed;
+       width: 100%; 
+       z-index:1;}
+    
+    nav ul{
+        background:orange;
+        list-style:none;
+        margin:0;
+        transition:0.2s linear;
+     transform:translatey(-110%);
+        text-align:center; 
+       padding: 10px 23%;
+    }
+    
+    .add_1{
+        transform:translatey(0%);
+    }
+    
+    .add_2{
+    transform:translatey(-110%);
+    }
+    
+    nav ul li{ 
+      margin:10px;
+        font-family:acme;
+        font-size:22px; 
+       }
+    
+      nav ul li a{
+      cursor :pointer;
+      box-shadow:0px 0px 6px yellow,0px 0px 20px yellow;
+        border-radius: 10px;
+         padding: 10px;
+         display:block; 
+       text-decoration:none;
+        color: black;
+        background: yellow;
+        transition :0.2s;
+      }
+      
+      nav ul li a:hover{
+          background: white;
+          color:orange;
+      }
+    
+  .navigation{
+     align-items:center;
+      background: orange;
+        padding:5px 15px 5px 6px;
+      display:flex;
+   justify-content:space-between;
+    }
+  
+ .navigation img{
+     width: 150px;  
+       }
+ 
+ .navigation div{
+      transform :scale(1.5);
+      font-weight :bold;   
+      margin-right:-10px;
+     }
+     
+     .navigation div i{
+      margin-left:-20px;
+     }
+     
+   .navigation div #up{
+       display:none;
+   }
+   
+      #home{        
+      display:flex;   
+      justify-content:center;
+       flex-direction:column;
+       place-items :center;
+        align-items:center;  
+       gap:35px;           background-image:url('pizza_bac.jpg');
+      border:6px solid black;
+      background-size:cover;
+      background-position:top; 
+      padding: 25px;         
+       }
+       
+ #home .head_pizza_palace{
+ text-align:center;
+  margin-top:35px;
+      font-family:spicy rice;
+          color: transparent; background:linear-gradient(yellow,#d10000,black);         
+     padding: 0px 13px;
+     box-shadow: 0px 0px 15px black;
+     font-size:45px; 
+     -webkit-background-clip:text;
+     }
+      
+  #home img{
+      width: 280px;
+     }
+     
+  #home .slogan{
+      color: #ff4d00;
+      font-size:42px;
+      text-align:center;
+      font-family:rum raisin;
+      font-weight:bold;
+      text-shadow:0px 0px 25px
+  orange;
+  letter-spacing:1px;  
+    }
+    
+     #p_button_1{
+     box-shadow:inset 0px 0px 10px white; background:linear-gradient(20deg,#ff0d00, orange);
+      color: white;
+      border:0;
+      cursor:pointer;
+       padding: 8px 10px;
+      font-size:23px;
+      font-family:acme;   
+      border-radius: 6px; 
+      transition :0.2s;     
+      }
+  
+  .fix{
+  background:url('pizza_back.jpg');
+  background-size:100% 55%;  
+   }
+  
+  #media_f2{
+       gap:30px;
+       flex-direction:column;     align-items:center;
+  justify-content:center;   
+      display :flex;
+      }
+  
+  #special, #events, #about, #book, #cycle_boy{
+      display :flex;
+      justify-content:center;
+      text-align:center;
+      align-items:center;
+      flex-direction:column;
+      gap:30px;
+     }
+     
+  #p_h1{
+       color: black;
+       padding: 0;
+       margin: 0;
+      margin-top:50px;
+      font-family:Oswald; 
+    }
+ 
+    .p_h2{
+    color: brown;
+    border-bottom:3px dotted black;
+      margin: 0;
+      font-family:acme; 
+       }
+      
+    .p_des{
+        font-family:rocknroll one;
+        font-size:15px;
+    }
+  
+     .p_img{
+      width: 90%;
+      height: 170px;
+      object-fit:cover;
+      border-radius: 20px;
+      transition :0.3s;
+      
+     }
+     
+   .active{
+   position:absolute;        
+   backdrop-filter:blur(30px);
+   top:50%;
+   left:50%;
+   transform :translate(-50%,-50%);
+   height: 93%;
+   width: 93%;
+   border:3px solib black;
+   }
+     
+  #p_button{
+      background: #ff0d00;
+      color: white;
+      border:0;
+      cursor:pointer;
+       padding: 8px 23px;
+      font-size:20px;
+      font-family:acme;    
+        border-radius: 6px; 
+      transition :0.3s; 
+           }
+      
+  #p_button:hover{
+    background: #ff5d00;
+    box-shadow:0px 0px 10px #ff5d00,0px 0px 20px #ff5d00;
+}
+  
+.sicilian, .hawaiian, .neapolitan, .margherita{  
+      display:flex;  
+      position:relative;
+      overflow :hidden;
+             justify-content:center;  
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+        border-radius: 10px;
+         width: 70%;
+         background: white;
+         padding: 20px;
+    box-shadow:0px 0px 10px black;
+       }
+       
+  .pepperoni, .p_shop{
+        border-radius: 10px;
+         width: 80%;
+         background: white;
+         padding: 25px;
+    box-shadow:0px 0px 10px black;
+       }
+       
+   .pepperoni img{
+   margin-bottom:20px;
+      max-width:285px;
+      object-fit:cover;
+      border-radius: 20px;
+   }
+   
+    .p_shop img{
+   margin-bottom:20px;
+       width: 230px;
+      object-fit:cover;
+      border-bottom:5px double black;  
+      padding-bottom:20px; 
+    }
+      
+  form {
+      display:flex;
+      justify-content:flex-start;   
+      align-items:center;
+      text-align:center;
+      flex-direction:column;
+     width: 80%;
+     gap:15px;
+       border-radius: 10px;
+         background: white;
+         padding: 25px;
+    box-shadow:0px 0px 10px black;
+       }
+       
+       form input{
+ background: rgba(173,216,230,0.5);
+ border-radius: 10px;
+       border:0;
+       width: 90%;
+       padding: 15px;
+      }
+      
+      form input[type="submit"]{
+      width: 45%;
+       background: black;
+       color: white;
+       font-family :acme;  
+       font-size:20px;
+       margin-top:15px;
+       cursor:pointer;
+       letter-spacing:2px;
+       border-radius: 30px;
+       padding: 10px;
+      }
+      
+     form input[type="reset"]{
+      width: 45%;
+       background: black;
+       color: white;
+       font-family :acme;  
+       font-size:20px;
+       margin-top:15px;
+       cursor:pointer;
+       letter-spacing:2px;
+       border-radius: 30px;
+       padding: 10px;
+      }
+       
+      form div{
+       width:100%;
+       font-size:19px;
+        text-align:left; 
+         background: ;
+        font-family:acme;
+        } 
+        
+      #cycle_boy{
+          margin-top :60px;
+          overflow :hidden;    
+       }
+      
+       #cycle_boy h1{
+          font-family:rum raisin;
+          letter-spacing:2px;
+           margin: 0;
+          padding: 0;
+      }
+      
+       #cycle_boy img{
+          width: 180px;
+          padding: 0;
+          transform:rotate(-2deg);
+    animation:run 2s 0s infinite linear;  
+       }
+      
+      @keyframes run{
+  0%{margin-left:-140%;}
+100%{margin-left:140%;}
+      }
+      
+      .contact_info{
+      color: black;
+       font-family:acme;
+       padding:35px 20px;
+ background: url('contact_bac.jpg');
+ background-size:cover;  background-position:right;  
+  }
+  
+  .contact_info #social_icon{
+      display :flex;
+      gap:20px;
+      font-size:35px;
+      }
+      
+  .contact_info #social_icon i:hover{
+     text-shadow:0px 0px 15px cyan;
+      }
+      
+   .copyright {
+   background:rgba(0,0,0,0.8);
+   color: white;
+   font-family:arial;
+      font-weight:bold;
+       font-size:16px;
+        padding: 13px;
+       text-align:center;
+          }      
+   
+      @media (min-width: 800px) {
+      .navigation div{
+          display:none;
+                }   
+    
+      .navigation img{
+         width: 190px;
+         padding-left:10px;
+      }
+      
+      nav{
+          display:flex;
+   justify-content:space-between;
+          width: 100%;
+          background: orange;
+                }
+                
+         nav ul{
+         padding: 0;
+            display :flex;
+    transform:translatey(0px);
+         }
+         
+         nav ul li a{
+         flex-basis:1;
+         padding: 6px 10px;
+         white-space:nowrap;  
+         }
+         
+     #home .head_pizza_palace{
+         margin-top: 80px;
+     }
+     
+     #media_f1{
+         display:flex;       justify-content:space-evenly;
+         align-items :center;
+       }
+       
+       #media_f1 img{
+           width: 380px;
+       }
+       
+       #p_h1{
+           margin-top:60px;
+           margin-bottom :30px;
+                  }
+       
+       #media_f2{
+       gap:90px 5px;
+       align-items:center;
+ justify-content:center;
+     place-items:center;
+            display :grid;        grid-template-columns:repeat(2, 1fr);
+          }
+          
+      #media_f2 div{
+          height: 100%;
+      }
+         
+    .pepperoni{
+        display:flex; 
+        gap:30px;
+        width: 85%;
+           }
+           
+   .p_shop{
+       padding: 60px;
+       border-radius: 60px;
+   }
+   
+   form{
+       display:grid; grid-template-columns:repeat(2,1fr);   
+        gap:20px 40px;  
+      }
+      
+      #cycle_boy img{
+          width: 250px;
+      }
+      
+  .contact_info {
+       text-align:center;
+          }
+          
+    .contact_info #social_icon{
+  justify-content:center;
+  gap:80px;
+          }
+          
+    .copyright {
+       font-size:20px;
+        padding: 20px;
+          }      
+        }
+
+</style>
