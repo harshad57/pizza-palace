@@ -15,4 +15,4 @@
     <p>Remix Icon :-  For social media and other icons.</p>
     <p>Google Fonts :-  Several custom fonts for a unique look.</p>
 
-<p>Check it out live :-  [pizza-palace](https://pizza-palace-harshad57.vercel.app)</p>
+<p>Check it out live :- https://pizza-palace-harshad57.vercel.app</p>
