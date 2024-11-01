@@ -1,4 +1,4 @@
-7<h1>Pizza Palace</h1>
+<h1>Pizza Palace</h1>
     <p>This is a fully responsive website for a fictional pizzeria called Pizza Palace, built using HTML, CSS, and JavaScript.</p>
 
   <h2>Features</h2>
