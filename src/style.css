@@ -305,7 +305,6 @@ html{
        width:100%;
        font-size:19px;
         text-align:left; 
-         background: ;
         font-family:acme;
         } 
         
@@ -360,8 +359,8 @@ html{
         padding: 13px;
        text-align:center;
           }      
-   
-      @media (min-width: 800px) {
+    
+   @media (min-width: 799px) {
       .navigation div{
           display:none;
                 }   
@@ -454,5 +453,5 @@ html{
         padding: 20px;
           }      
         }
-
+ 
 </style>
