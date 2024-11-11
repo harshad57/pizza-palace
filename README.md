@@ -12,7 +12,7 @@ live :- [pizza-palace](https://pizza-palace-harshad57.vercel.app)
     <li><strong>Contact Information : </strong> Address, phone, and social media icons.</li>
 </ul>
 
-<h2>Technologies Used</h2>
+<h2>Technologies Used :- </h2>
 <ul>
     <li><strong>HTML5</strong></li>
     <li><strong>CSS3 : </strong> Custom styles and animations.</li>
