@@ -21,4 +21,4 @@ live :- [pizza-palace](https://pizza-palace-harshad57.vercel.app)
     <li><strong>Google Fonts : </strong> Several custom fonts for a unique look.</li>
 </ul>
 
-<p>(Check it out live :- https://pizza-palace-harshad57.vercel.app)</p>
+
