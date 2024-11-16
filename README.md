@@ -18,7 +18,7 @@ live :- [pizza-palace](https://pizza-palace-harshad57.vercel.app)
     <li><strong>CSS3 : </strong> Custom styles and animations.</li>
     <li><strong>JavaScript : </strong> Interactivity like image enlargement and menu toggle.</li>
     <li><strong>Remix Icon : </strong> For social media and other icons.</li>
-    <li><strong>Google Fonts : </strong> Several custom fonts for a unique look.</li>
+    <li><strong>[Google Fonts](https://fonts.google.com/) : </strong> Several custom fonts for a unique look.</li>
 </ul>
 
 <p>Check it out live :- https://pizza-palace-harshad57.vercel.app</p>
