@@ -17,6 +17,6 @@ This is a fully responsive website for a fictional pizzeria called Pizza Palace,
 - **CSS3** : Custom styles and animations.
 - **JavaScript** : Interactivity like image enlargement and menu toggle.
 - **Remix Icon** : For social media and other icons.
-- **[Google Fonts](https://fonts.google.com/) :** Several custom fonts for a unique look.
+- **[Google Fonts](https://fonts.google.com/)** : Several custom fonts for a unique look.
 
 Check it out live :- https://pizza-palace-harshad57.vercel.app
