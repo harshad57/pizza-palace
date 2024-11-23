@@ -5,11 +5,11 @@ This is a fully responsive website for a fictional pizzeria called Pizza Palace,
 
 ## Features :-
 
-- **Fixed Navigation Bar:** Smooth scrolling and mobile-friendly design.
-- **Pizza Specialties:** A section highlighting different pizza varieties.
-- **Upcoming Events:** Details about upcoming promotions.
-- **Booking Form:** Allows customers to reserve a table.
-- **Contact Information:** Address, phone, and social media icons.
+- **Fixed Navigation Bar :** Smooth scrolling and mobile-friendly design.
+- **Pizza Specialties :** A section highlighting different pizza varieties.
+- **Upcoming Events :** Details about upcoming promotions.
+- **Booking Form :** Allows customers to reserve a table.
+- **Contact Information :** Address, phone, and social media icons.
 
 ## Technologies Used :-
 
