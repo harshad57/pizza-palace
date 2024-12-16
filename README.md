@@ -1,5 +1,5 @@
 live :- [pizza-palace](https://pizza-palace-harshad57.vercel.app)
-# Pizza Palace
+# 🍕 Pizza Palace
 
 This is a fully responsive website for a fictional pizzeria called Pizza Palace, built using HTML, CSS, and JavaScript.
 
