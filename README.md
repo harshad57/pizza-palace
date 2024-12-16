@@ -3,7 +3,7 @@ live :- [pizza-palace](https://pizza-palace-harshad57.vercel.app)
 
 This is a fully responsive website for a fictional pizzeria called Pizza Palace, built using HTML, CSS, and JavaScript.
 
-## Features :-
+## 🌐 Features :-
 
 - **Fixed Navigation Bar** : Smooth scrolling and mobile-friendly design.
 - **Pizza Specialties** : A section highlighting different pizza varieties.
@@ -11,7 +11,7 @@ This is a fully responsive website for a fictional pizzeria called Pizza Palace,
 - **Booking Form** : Allows customers to reserve a table.
 - **Contact Information** : Address, phone, and social media icons.
 
-## Technologies Used :-
+## 🛠️ Technologies Used :-
 
 - **HTML5**
 - **CSS3** : Custom styles and animations.
