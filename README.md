@@ -13,9 +13,9 @@ This is a fully responsive website for a fictional pizzeria called Pizza Palace,
 
 ## 🛠️ Technologies Used :-
 
-- **[Html5](index.html)**
-- **CSS3** : Custom styles and animations.
-- **JavaScript** : Interactivity like image enlargement and menu toggle.
+- **[HTML5](index.html)**
+- **[CSS3](src/style.css)** : Custom styles and animations.
+- **[JavaScript](src/script.js)** : Interactivity like image enlargement and menu toggle.
 - **Remix Icon** : For social media and other icons.
 - **[Google Fonts](https://fonts.google.com/)** : Several custom fonts for a unique look.
 
